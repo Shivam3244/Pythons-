@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Organizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="container">
+        <section class="card">
+            <h1>File Organizer</h1>
+            <p class="subtitle">
+                Organize files automatically by their type.
+            </p>
+
+            <form method="POST">
+                <label for="directory">Directory Path</label>
+                <input
+                    id="directory"
+                    type="text"
+                    name="directory"
+                    placeholder="C:\Users\YourName\Downloads"
+                    required
+                >
+                <button type="submit">Organize Files</button>
+            </form>
+
+            {% if message %}
+                <div class="success">{{ message }}</div>
+            {% endif %}
+
+            {% if error %}
+                <div class="error">{{ error }}</div>
+            {% endif %}
+
+            {% if summary %}
+                <div class="summary">
+                    <h2>Organization Summary</h2>
+                    <ul>
+                        {% for category, count in summary.items() %}
+                            <li><strong>{{ category }}</strong>: {{ count }} file(s)</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+        </section>
+    </main>
+</body>
+</html>

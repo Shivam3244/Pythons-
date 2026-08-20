@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Which language is used to create this project?",
+        "options": [
+            "Python",
+            "Java",
+            "C++",
+            "HTML"
+        ],
+        "answer": "Python"
+    },
+    {
+        "question": "Which data structure stores key-value pairs in Python?",
+        "options": [
+            "List",
+            "Tuple",
+            "Dictionary",
+            "Set"
+        ],
+        "answer": "Dictionary"
+    },
+    {
+        "question": "What is the extension of a Python file?",
+        "options": [
+            ".java",
+            ".py",
+            ".cpp",
+            ".html"
+        ],
+        "answer": ".py"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "def",
+            "func",
+            "define"
+        ],
+        "answer": "def"
+    },
+    {
+        "question": "Which module is commonly used for generating random choices in Python?",
+        "options": [
+            "random",
+            "math",
+            "os",
+            "time"
+        ],
+        "answer": "random"
+    }
+]

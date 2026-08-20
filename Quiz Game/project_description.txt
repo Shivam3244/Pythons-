@@ -1,0 +1,10 @@
+Project Title: Quiz Game
+
+Description:
+The Quiz Game is a Python-based application that quizzes users on different topics. It displays multiple-choice questions, accepts user answers, and calculates the final score.
+
+Scope:
+The project provides a user interface for displaying questions and collecting answers, uses a JSON file to store quiz data, and implements a scoring algorithm to track progress and calculate the final result.
+
+Technology:
+Python, JSON, Random module.

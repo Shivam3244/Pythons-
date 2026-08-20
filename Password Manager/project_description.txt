@@ -1,0 +1,10 @@
+Project Title: Password Manager
+
+Description:
+A Python application that securely stores and manages passwords for different accounts. It supports secure password generation and encrypted storage.
+
+Scope:
+The project uses encryption to protect stored credentials, a simple command-line user interface, SQLite database storage, and functions for generating, adding, viewing, searching, updating and deleting passwords.
+
+Technology:
+Python, SQLite, Cryptography (Fernet), PBKDF2, Secrets module.
